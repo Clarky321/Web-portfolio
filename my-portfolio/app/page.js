@@ -1,13 +1,11 @@
-import { Image } from "@chakra-ui/react";
+import { Box, Center } from "@chakra-ui/react";
 
-export default function MainPage() {
-    return (
-        <Image
-            src="https://bit.ly/naruto-sage"
-            boxSize="300px"
-            borderRadius="full"
-            fit="cover"
-            alt="Naruto Uzumaki"
-        />
-    );
+export default function Home() {
+  return (
+    <div>
+      <Box background="tomato" width="100%" padding="4" color="white">
+        This is the Box
+      </Box>
+    </div>
+  );
 }
